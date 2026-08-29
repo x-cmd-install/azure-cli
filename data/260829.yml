@@ -1,0 +1,70 @@
+about:
+  description: Azure Command-Line Interface
+  license: MIT
+  homepage: 
+  head: b92a89e
+  archived: false
+  latestVersion: azure-cli-2.89.1
+  collectedAt: 2026-08-29T07:05:02Z
+timeline:
+  created: 2016-02-04
+  lastCommit: 2026-08-27
+  lastRelease: 2026-08-12
+popularity:
+  star: 4612
+  watcher: 175
+  fork: 3469
+  release: 208
+  contributor: 10000
+  pullRequest: 2657
+  issue: 18576
+language:
+  Python: 109696417
+  Shell: 76296
+  PowerShell: 68648
+  Batchfile: 17266
+  Rich Text Format: 12032
+  ANTLR: 10746
+  HTML: 8996
+  Dockerfile: 8737
+  C#: 7424
+  JavaScript: 4938
+  Bicep: 3658
+  CSS: 2383
+  TSQL: 1145
+  Jupyter Notebook: 389
+  EJS: 305
+totalLine: 109919380
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 2
+    mergedPR: 64
+    openPR: 47
+    closedIssue: 25
+    openIssue: 39
+    commit: 105
+  last90d:
+    since: 2026-05-31
+    release: 4
+    mergedPR: 175
+    openPR: 96
+    closedIssue: 64
+    openIssue: 88
+    commit: 257
+  last180d:
+    since: 2026-03-02
+    release: 7
+    mergedPR: 430
+    openPR: 150
+    closedIssue: 142
+    openIssue: 156
+    commit: 542
+  last360d:
+    since: 2025-09-03
+    release: 14
+    mergedPR: 779
+    openPR: 180
+    closedIssue: 295
+    openIssue: 342
+    commit: 877
