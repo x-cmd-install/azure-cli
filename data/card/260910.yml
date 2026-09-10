@@ -7,7 +7,7 @@ about:
   latestVersion: "azure-cli-2.90.0"
   latestRelease: "azure-cli-2.90.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:49:59Z
+  collectedAt: 2026-09-10T22:04:35Z
 timeline:
   created: 2016-02-04
   lastCommit: 2026-09-10
@@ -97,7 +97,7 @@ total:
   commit: 13813
 ---
 path: /home/runner/.x-repo/github.com/Azure/azure-cli
-collectedAt: 2026-09-10T21:54:07Z
+collectedAt: 2026-09-10T22:08:56Z
 loc:
   Yaml:
     code: 11140691
