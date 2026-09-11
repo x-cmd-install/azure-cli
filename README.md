@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,622 · **Forks**: 3,479 · **Open issues**: 18,588 · **Contributors**: 3,969
+- **Stars**: 4,622 · **Forks**: 3,481 · **Open issues**: 18,590 · **Contributors**: 3,969
 
 ## Totals (cumulative)
 
-- **Releases**: 209 · **Merged PRs**: 12364 · **Open PRs**: 390 · **Closed issues**: 14998 · **Open issues**: 3590 · **Commits**: 13813
+- **Releases**: 209 · **Merged PRs**: 12364 · **Open PRs**: 393 · **Closed issues**: 14998 · **Open issues**: 3592 · **Commits**: 13813
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 68 | 39 | 18 | 31 | 118 |
-| last60d | 2026-07-12 | 3 | 128 | 61 | 47 | 55 | 186 |
-| 90d | 2026-06-12 | 4 | 180 | 80 | 65 | 73 | 263 |
-| last180d | 2026-03-14 | 7 | 415 | 140 | 143 | 141 | 532 |
-| 360d | 2025-09-15 | 15 | 786 | 170 | 277 | 330 | 891 |
-| last720d | 2024-09-20 | 29 | 1708 | 235 | 782 | 792 | 1711 |
+| 30d | 2026-08-12 | 2 | 67 | 42 | 16 | 32 | 118 |
+| last60d | 2026-07-13 | 3 | 128 | 63 | 47 | 57 | 186 |
+| 90d | 2026-06-13 | 4 | 180 | 83 | 64 | 75 | 263 |
+| last180d | 2026-03-15 | 7 | 414 | 143 | 143 | 142 | 532 |
+| 360d | 2025-09-16 | 15 | 785 | 173 | 277 | 331 | 891 |
+| last720d | 2024-09-21 | 29 | 1707 | 238 | 781 | 794 | 1706 |
 
 ## Release assets
 
@@ -78,15 +78,15 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **63** distros on [repology.org](https://repology.org/project/azure-cli). **13** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
+Reported by **62** distros on [repology.org](https://repology.org/project/azure-cli). **15** are ✅ on the latest upstream release, **37** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `2.90.0` | ✅ latest |
 | Debian 14 | `2.90.0` | ✅ latest |
 | Debian 13 | `2.74.0` | ⚠️ outdated |
-| Arch | `2.87.0` | ⚠️ outdated |
-| Homebrew | `2.90.0` | ✅ latest |
+| Arch | `2.90.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `2.88.0` | ⚠️ outdated |
 | Nix unstable | `2.89.1` | ⚠️ outdated |
 | openSUSE Tumbleweed | `2.89.1` | ⚠️ outdated |
@@ -100,4 +100,4 @@ Install metadata for azure-cli lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:09:06Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:05:52Z._
