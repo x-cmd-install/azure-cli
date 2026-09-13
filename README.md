@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,622 · **Forks**: 3,483 · **Open issues**: 18,591 · **Contributors**: 3,971
+- **Stars**: 4,622 · **Forks**: 3,484 · **Open issues**: 18,592 · **Contributors**: 3,970
 
 ## Totals (cumulative)
 
-- **Releases**: 209 · **Merged PRs**: 12364 · **Open PRs**: 396 · **Closed issues**: 14998 · **Open issues**: 3593 · **Commits**: 13813
+- **Releases**: 209 · **Merged PRs**: 12364 · **Open PRs**: 397 · **Closed issues**: 14998 · **Open issues**: 3594 · **Commits**: 13813
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 2 | 67 | 45 | 16 | 33 | 118 |
-| last60d | 2026-07-13 | 3 | 128 | 66 | 47 | 58 | 186 |
-| 90d | 2026-06-13 | 4 | 180 | 86 | 64 | 76 | 263 |
-| last180d | 2026-03-15 | 7 | 414 | 146 | 143 | 143 | 532 |
-| 360d | 2025-09-16 | 15 | 785 | 176 | 277 | 332 | 891 |
-| last720d | 2024-09-21 | 29 | 1707 | 241 | 781 | 795 | 1706 |
+| 30d | 2026-08-14 | 1 | 58 | 45 | 14 | 30 | 92 |
+| last60d | 2026-07-15 | 3 | 125 | 62 | 44 | 58 | 173 |
+| 90d | 2026-06-15 | 4 | 176 | 87 | 61 | 75 | 243 |
+| last180d | 2026-03-17 | 7 | 412 | 147 | 141 | 143 | 516 |
+| 360d | 2025-09-18 | 15 | 779 | 175 | 272 | 333 | 878 |
+| last720d | 2024-09-23 | 29 | 1699 | 242 | 777 | 795 | 1706 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **62** distros on [repology.org](https://repology.org/project/azure-cli). **15** are ✅ on the latest upstream release, **37** are ⚠️ on an older version.
+Reported by **62** distros on [repology.org](https://repology.org/project/azure-cli). **16** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for azure-cli lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T19:04:49Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T06:11:09Z._
