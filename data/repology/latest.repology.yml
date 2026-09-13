@@ -5,6 +5,17 @@
   origversion: null
   status: rolling
   summary: Microsoft Azure CLI 2.0
+- repo: arch
+  subrepo: extra
+  srcname: azure-cli
+  binname: azure-cli
+  visiblename: azure-cli
+  version: 2.90.0
+  origversion: 2.90.0-1
+  status: newest
+  summary: Command-line tools for Microsoft Azure
+  licenses:
+    - MIT
 - repo: raspbian_stable
   subrepo: main
   srcname: azure-cli
@@ -23,28 +34,6 @@
     - bluca@debian.org
   categories:
     - misc
-- repo: nix_unstable
-  srcname: azure-cli
-  visiblename: azure-cli
-  version: 2.89.1
-  origversion: null
-  status: outdated
-  summary: Next generation multi-platform command line experience for Azure
-  maintainers:
-    - katexochen0@gmail.com
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: azure-cli
-  binname: azure-cli
-  visiblename: azure-cli
-  version: 2.90.0
-  origversion: 2.90.0-1
-  status: newest
-  summary: Command-line tools for Microsoft Azure
-  licenses:
-    - MIT
 - repo: chocolatey
   binname: azure-cli
   visiblename: Azure CLI
@@ -290,23 +279,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: azure-cli
-  binnames:
-    - azure-cli
-    - python3-azure-cli-core
-    - python3-azure-cli-telemetry
-    - python3-azure-cli-testsdk
-  visiblename: azure-cli
-  version: 2.68.0
-  origversion: 2.68.0-1.fc42
-  status: outdated
-  summary: Microsoft Azure Command-Line Tools
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: azure-cli
   binnames:
@@ -317,6 +289,23 @@
   visiblename: azure-cli
   version: 2.68.0
   origversion: 2.68.0-2.fc42
+  status: outdated
+  summary: Microsoft Azure Command-Line Tools
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: azure-cli
+  binnames:
+    - azure-cli
+    - python3-azure-cli-core
+    - python3-azure-cli-telemetry
+    - python3-azure-cli-testsdk
+  visiblename: azure-cli
+  version: 2.68.0
+  origversion: 2.68.0-1.fc42
   status: outdated
   summary: Microsoft Azure Command-Line Tools
   licenses:
@@ -470,9 +459,9 @@
   srcname: azure-cli
   binname: azure-cli
   visiblename: azure-cli
-  version: 2.87.0
-  origversion: 2.87.0-1
-  status: outdated
+  version: 2.90.0
+  origversion: 2.90.0-1
+  status: newest
   summary: Command-line tools for Microsoft Azure
   licenses:
     - MIT
@@ -527,6 +516,17 @@
   srcname: azure-cli
   visiblename: azure-cli
   version: 2.86.0
+  origversion: null
+  status: outdated
+  summary: Next generation multi-platform command line experience for Azure
+  maintainers:
+    - katexochen0@gmail.com
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: azure-cli
+  visiblename: azure-cli
+  version: 2.89.1
   origversion: null
   status: outdated
   summary: Next generation multi-platform command line experience for Azure
@@ -823,24 +823,6 @@
   maintainers:
     - gouranga.das.khulna@gmail.com
 - repo: trisquel_10_0
-  subrepo: nabia-updates/main
-  srcname: azure-cli
-  binnames:
-    - azure-cli
-    - python3-azure-cli
-    - python3-azure-cli-core
-    - python3-azure-cli-telemetry
-    - python3-azure-cli-testsdk
-  visiblename: azure-cli
-  version: 2.0.81
-  origversion: 2.0.81+ds-4ubuntu0.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - bluca@debian.org
-  categories:
-    - universe/misc
-- repo: trisquel_10_0
   subrepo: nabia/main
   srcname: azure-cli
   binnames:
@@ -855,6 +837,24 @@
   status: outdated
   maintainers:
     - python-modules-team@lists.alioth.debian.org
+    - bluca@debian.org
+  categories:
+    - universe/misc
+- repo: trisquel_10_0
+  subrepo: nabia-updates/main
+  srcname: azure-cli
+  binnames:
+    - azure-cli
+    - python3-azure-cli
+    - python3-azure-cli-core
+    - python3-azure-cli-telemetry
+    - python3-azure-cli-testsdk
+  visiblename: azure-cli
+  version: 2.0.81
+  origversion: 2.0.81+ds-4ubuntu0.2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - bluca@debian.org
   categories:
     - universe/misc
