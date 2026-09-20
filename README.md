@@ -4,7 +4,7 @@
 
 Azure Command-Line Interface
 
-![azure-cli](https://repo.x-cmd.io/azure-cli.svg)
+[![x-cmd/install — azure-cli Code Quality Monitoring Repo Card](https://repo.x-cmd.io/azure-cli.svg)](https://x-cmd.com/install/azure-cli)
 
 ## Install
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,637 · **Forks**: 3,487 · **Open issues**: 18,598 · **Contributors**: 3,975
+- **Stars**: 4,638 · **Forks**: 3,487 · **Open issues**: 18,600 · **Contributors**: 3,972
 
 ## Totals (cumulative)
 
-- **Releases**: 209 · **Merged PRs**: 12378 · **Open PRs**: 403 · **Closed issues**: 15014 · **Open issues**: 3584 · **Commits**: 13827
+- **Releases**: 209 · **Merged PRs**: 12379 · **Open PRs**: 407 · **Closed issues**: 15016 · **Open issues**: 3584 · **Commits**: 13828
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 56 | 49 | 11 | 26 | 111 |
-| last60d | 2026-07-20 | 3 | 134 | 67 | 44 | 58 | 192 |
-| 90d | 2026-06-20 | 4 | 183 | 87 | 61 | 77 | 262 |
-| last180d | 2026-03-22 | 7 | 418 | 151 | 144 | 143 | 535 |
-| 360d | 2025-09-23 | 15 | 786 | 179 | 271 | 331 | 897 |
-| last720d | 2024-09-28 | 29 | 1701 | 247 | 771 | 788 | 1702 |
+| 30d | 2026-08-21 | 1 | 45 | 52 | 10 | 28 | 58 |
+| last60d | 2026-07-22 | 3 | 126 | 68 | 41 | 57 | 163 |
+| 90d | 2026-06-22 | 4 | 183 | 89 | 61 | 79 | 242 |
+| last180d | 2026-03-24 | 7 | 406 | 154 | 143 | 139 | 500 |
+| 360d | 2025-09-25 | 15 | 778 | 183 | 268 | 330 | 874 |
+| last720d | 2024-09-30 | 29 | 1700 | 251 | 769 | 783 | 1702 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for azure-cli lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:08:56Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:10:08Z._
