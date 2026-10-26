@@ -1,48 +1,3 @@
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: azure-cli
-  binname: azure-cli
-  visiblename: azure-cli
-  version: 2.87.0
-  origversion: 2.87.0-1
-  status: outdated
-  summary: Command-line tools for Microsoft Azure
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: azure-cli
-  binname: azure-cli
-  visiblename: azure-cli
-  version: 2.90.0
-  origversion: 2.90.0-1
-  status: outdated
-  summary: Command-line tools for Microsoft Azure
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: azure-cli
-  binname: azure-cli
-  visiblename: azure-cli
-  version: 2.90.0
-  origversion: 2.90.0-1
-  status: outdated
-  summary: Command-line tools for Microsoft Azure
-  licenses:
-    - MIT
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: azure-cli
-  visiblename: azure-cli
-  version: 2.66.0
-  origversion: 2.66.0-150400.14.18.1
-  status: legacy
-  summary: Microsoft Azure CLI 2.0
-  licenses:
-    - MIT
-  categories:
-    - System/Management
 - repo: arch
   subrepo: extra
   srcname: azure-cli
@@ -242,23 +197,6 @@
   categories:
     - Unspecified
 - repo: fedora_39
-  subrepo: updates
-  srcname: azure-cli
-  binnames:
-    - azure-cli
-    - python3-azure-cli-core
-    - python3-azure-cli-telemetry
-    - python3-azure-cli-testsdk
-  visiblename: azure-cli
-  version: 2.56.0
-  origversion: 2.56.0-1.fc39
-  status: outdated
-  summary: Microsoft Azure Command-Line Tools
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: release
   srcname: azure-cli
   binnames:
@@ -270,6 +208,23 @@
   version: 2.52.0
   origversion: 2.52.0-1.fc39
   status: legacy
+  summary: Microsoft Azure Command-Line Tools
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: azure-cli
+  binnames:
+    - azure-cli
+    - python3-azure-cli-core
+    - python3-azure-cli-telemetry
+    - python3-azure-cli-testsdk
+  visiblename: azure-cli
+  version: 2.56.0
+  origversion: 2.56.0-1.fc39
+  status: outdated
   summary: Microsoft Azure Command-Line Tools
   licenses:
     - MIT
@@ -344,23 +299,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: azure-cli
-  binnames:
-    - azure-cli
-    - python3-azure-cli-core
-    - python3-azure-cli-telemetry
-    - python3-azure-cli-testsdk
-  visiblename: azure-cli
-  version: 2.74.0
-  origversion: 2.74.0-6.fc43
-  status: legacy
-  summary: Microsoft Azure Command-Line Tools
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: azure-cli
   binnames:
@@ -372,6 +310,23 @@
   version: 2.81.0
   origversion: 2.81.0-2.fc43
   status: outdated
+  summary: Microsoft Azure Command-Line Tools
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: azure-cli
+  binnames:
+    - azure-cli
+    - python3-azure-cli-core
+    - python3-azure-cli-telemetry
+    - python3-azure-cli-testsdk
+  visiblename: azure-cli
+  version: 2.74.0
+  origversion: 2.74.0-6.fc43
+  status: legacy
   summary: Microsoft Azure Command-Line Tools
   licenses:
     - MIT
@@ -411,6 +366,18 @@
     - MIT
   categories:
     - Unspecified
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: azure-cli
+  visiblename: azure-cli
+  version: 2.17.1
+  origversion: 2.17.1-150100.6.11.2
+  status: legacy
+  summary: Microsoft Azure CLI 2.0
+  licenses:
+    - MIT
+  categories:
+    - System/Management
 - repo: freebsd
   srcname: sysutils/py-azure-cli
   binname: py312-azure-cli
@@ -440,9 +407,9 @@
     - python3-azure-cli-telemetry
     - python3-azure-cli-testsdk
   visiblename: azure-cli
-  version: 2.90.0
-  origversion: 2.90.0-1
-  status: outdated
+  version: 2.91.0
+  origversion: 2.91.0-1
+  status: newest
   maintainers:
     - team+python@tracker.debian.org
     - bluca@debian.org
@@ -463,6 +430,39 @@
     - MIT
   categories:
     - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: azure-cli
+  binname: azure-cli
+  visiblename: azure-cli
+  version: 2.87.0
+  origversion: 2.87.0-1
+  status: outdated
+  summary: Command-line tools for Microsoft Azure
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: azure-cli
+  binname: azure-cli
+  visiblename: azure-cli
+  version: 2.90.0
+  origversion: 2.90.0-1
+  status: outdated
+  summary: Command-line tools for Microsoft Azure
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: azure-cli
+  binname: azure-cli
+  visiblename: azure-cli
+  version: 2.90.0
+  origversion: 2.90.0-1
+  status: outdated
+  summary: Command-line tools for Microsoft Azure
+  licenses:
+    - MIT
 - repo: nix_stable_24_05
   srcname: azure-cli
   visiblename: azure-cli
@@ -533,18 +533,6 @@
   licenses:
     - MIT
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: azure-cli
-  visiblename: azure-cli
-  version: 2.17.1
-  origversion: 2.17.1-150100.6.11.2
-  status: legacy
-  summary: Microsoft Azure CLI 2.0
-  licenses:
-    - MIT
-  categories:
-    - System/Management
-- repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: azure-cli
   visiblename: azure-cli
@@ -563,6 +551,18 @@
   version: 2.58.0
   origversion: 2.58.0-150400.14.6.1
   status: outdated
+  summary: Microsoft Azure CLI 2.0
+  licenses:
+    - MIT
+  categories:
+    - System/Management
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: azure-cli
+  visiblename: azure-cli
+  version: 2.36.0
+  origversion: 2.36.0-150200.9.3.2
+  status: legacy
   summary: Microsoft Azure CLI 2.0
   licenses:
     - MIT
@@ -608,21 +608,21 @@
   subrepo: updates/sle
   srcname: azure-cli
   visiblename: azure-cli
-  version: 2.82.0
-  origversion: 2.82.0-150400.14.23.1
-  status: outdated
+  version: 2.66.0
+  origversion: 2.66.0-150400.14.18.1
+  status: legacy
   summary: Microsoft Azure CLI 2.0
   licenses:
     - MIT
   categories:
     - System/Management
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
+  subrepo: updates/sle
   srcname: azure-cli
   visiblename: azure-cli
-  version: 2.36.0
-  origversion: 2.36.0-150200.9.3.2
-  status: legacy
+  version: 2.82.0
+  origversion: 2.82.0-150400.14.23.1
+  status: outdated
   summary: Microsoft Azure CLI 2.0
   licenses:
     - MIT
@@ -672,7 +672,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: azure-cli
   binnames:
     - azure-cli
@@ -690,7 +690,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: azure-cli
   binnames:
     - azure-cli
