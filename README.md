@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,663 · **Forks**: 3,527 · **Open issues**: 18,652 · **Contributors**: 4,056
+- **Stars**: 4,662 · **Forks**: 3,527 · **Open issues**: 18,654 · **Contributors**: 4,056
 
 ## Totals (cumulative)
 
-- **Releases**: 210 · **Merged PRs**: 12474 · **Open PRs**: 444 · **Closed issues**: 15193 · **Open issues**: 3459 · **Commits**: 13922
+- **Releases**: 210 · **Merged PRs**: 12474 · **Open PRs**: 445 · **Closed issues**: 15193 · **Open issues**: 3461 · **Commits**: 13922
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 1 | 50 | 58 | 17 | 24 | 101 |
-| last60d | 2026-09-01 | 2 | 113 | 86 | 28 | 49 | 188 |
-| 90d | 2026-08-02 | 4 | 193 | 102 | 61 | 75 | 301 |
-| last180d | 2026-05-04 | 7 | 376 | 166 | 128 | 132 | 544 |
-| 360d | 2025-11-05 | 14 | 787 | 216 | 266 | 289 | 957 |
-| last720d | 2024-11-10 | 29 | 1678 | 283 | 756 | 735 | 1671 |
+| 30d | 2026-10-02 | 1 | 48 | 58 | 17 | 25 | 86 |
+| last60d | 2026-09-02 | 1 | 108 | 87 | 28 | 47 | 166 |
+| 90d | 2026-08-03 | 4 | 192 | 103 | 60 | 74 | 284 |
+| last180d | 2026-05-05 | 6 | 373 | 166 | 127 | 133 | 517 |
+| 360d | 2025-11-06 | 14 | 782 | 217 | 266 | 291 | 921 |
+| last720d | 2024-11-11 | 29 | 1672 | 282 | 752 | 737 | 1671 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for azure-cli lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:50:16Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T07:22:23Z._
