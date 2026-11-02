@@ -14,12 +14,12 @@ x install azure-cli
 
 ## Code insight
 
-Total: **13,649,325** lines of code across **8902** files in the top 5 languages.
+Total: **13,649,483** lines of code across **8902** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Yaml | 11,198,870 | 291 | 297 | 3238 |
-| Python | 2,419,755 | 70,006 | 374,382 | 5373 |
+| Yaml | 11,198,888 | 291 | 297 | 3238 |
+| Python | 2,419,895 | 70,006 | 374,400 | 5373 |
 | Json | 16,552 | 0 | 46 | 278 |
 | ReStructuredText | 9,053 | 0 | 4,250 | 12 |
 | Graphql | 973 | 79 | 90 | 1 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `azure-cli-2.91.0` (2026-10-05)
-- **Last commit**: 2026-10-30
+- **Last commit**: 2026-11-02
 - **Assets in release**: 7
 
 ## Popularity
 
-- **Stars**: 4,662 · **Forks**: 3,527 · **Open issues**: 18,654 · **Contributors**: 4,056
+- **Stars**: 4,663 · **Forks**: 3,527 · **Open issues**: 18,654 · **Contributors**: 4,053
 
 ## Totals (cumulative)
 
-- **Releases**: 210 · **Merged PRs**: 12474 · **Open PRs**: 445 · **Closed issues**: 15193 · **Open issues**: 3461 · **Commits**: 13922
+- **Releases**: 210 · **Merged PRs**: 12476 · **Open PRs**: 447 · **Closed issues**: 15193 · **Open issues**: 3461 · **Commits**: 13924
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 1 | 48 | 58 | 17 | 25 | 86 |
-| last60d | 2026-09-02 | 1 | 108 | 87 | 28 | 47 | 166 |
-| 90d | 2026-08-03 | 4 | 192 | 103 | 60 | 74 | 284 |
-| last180d | 2026-05-05 | 6 | 373 | 166 | 127 | 133 | 517 |
-| 360d | 2025-11-06 | 14 | 782 | 217 | 266 | 291 | 921 |
-| last720d | 2024-11-11 | 29 | 1672 | 282 | 752 | 737 | 1671 |
+| 30d | 2026-10-03 | 1 | 49 | 60 | 17 | 25 | 88 |
+| last60d | 2026-09-03 | 1 | 107 | 89 | 28 | 46 | 168 |
+| 90d | 2026-08-04 | 4 | 191 | 104 | 57 | 72 | 286 |
+| last180d | 2026-05-06 | 6 | 374 | 168 | 126 | 132 | 519 |
+| 360d | 2025-11-07 | 14 | 782 | 219 | 265 | 291 | 923 |
+| last720d | 2024-11-12 | 28 | 1668 | 284 | 749 | 732 | 1666 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **60** distros on [repology.org](https://repology.org/project/azure-cli). **15** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
+Reported by **58** distros on [repology.org](https://repology.org/project/azure-cli). **15** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for azure-cli lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:22:23Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:14:03Z._
