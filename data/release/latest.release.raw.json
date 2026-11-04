@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 42177464,
       "digest": "sha256:ef78aad855168a61eb372c1624406b97a94f1b23935b9391d131565337acc703",
-      "download_count": 5,
+      "download_count": 29,
       "created_at": "2026-11-03T00:37:37Z",
       "updated_at": "2026-11-03T00:37:38Z",
       "browser_download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-linux-arm64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 42763680,
       "digest": "sha256:b90a489e0447b83e9d265b6d14f8b9306cd96b830c7f93e60bbcdf18cd2532af",
-      "download_count": 11,
+      "download_count": 336,
       "created_at": "2026-11-03T00:37:39Z",
       "updated_at": "2026-11-03T00:37:40Z",
       "browser_download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-linux-x86_64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 46713373,
       "digest": "sha256:6fb7d8d6d3db65098e259d5d1d6364359b4b54b5aef4ea6b18bddddd9468407a",
-      "download_count": 16,
+      "download_count": 8079,
       "created_at": "2026-11-03T00:37:32Z",
       "updated_at": "2026-11-03T00:37:34Z",
       "browser_download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-macos-arm64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 46992325,
       "digest": "sha256:75030452016f1d72cdcd60f1ff71328eac153fe13b00563554ab2dbc0fbe23cb",
-      "download_count": 4,
+      "download_count": 891,
       "created_at": "2026-11-03T00:37:35Z",
       "updated_at": "2026-11-03T00:37:36Z",
       "browser_download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-macos-x86_64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 70561792,
       "digest": "sha256:adae8646ce0e3b322e33229268c686703560ba865d4fd8546154d4c940b289e8",
-      "download_count": 78,
+      "download_count": 192,
       "created_at": "2026-11-03T00:37:25Z",
       "updated_at": "2026-11-03T00:37:28Z",
       "browser_download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-x64.msi"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 92206427,
       "digest": "sha256:2cbd2c10e4b2ec4de2ab98eaa69f51fa4c9dfc4922b5116ada88091663d92af2",
-      "download_count": 159,
+      "download_count": 585,
       "created_at": "2026-11-03T00:37:29Z",
       "updated_at": "2026-11-03T00:37:32Z",
       "browser_download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-x64.zip"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 68071424,
       "digest": "sha256:0d5f0250ad79ac635e6c66eee7f5d850bd801971f3f554e1b991e782a1b05c7c",
-      "download_count": 32,
+      "download_count": 65,
       "created_at": "2026-11-03T00:37:22Z",
       "updated_at": "2026-11-03T00:37:25Z",
       "browser_download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0.msi"
