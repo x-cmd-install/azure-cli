@@ -41,44 +41,44 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `azure-cli-2.92.0` (2026-11-03)
+- **Latest**: `azure-cli-2.93.0` (2026-11-15)
 - **Last commit**: 2026-11-15
 - **Assets in release**: 7
 
 ## Popularity
 
-- **Stars**: 4,663 · **Forks**: 3,532 · **Open issues**: 18,679 · **Contributors**: 4,085
+- **Stars**: 4,663 · **Forks**: 3,532 · **Open issues**: 18,680 · **Contributors**: 4,085
 
 ## Totals (cumulative)
 
-- **Releases**: 211 · **Merged PRs**: 12554 · **Open PRs**: 430 · **Closed issues**: 15225 · **Open issues**: 3454 · **Commits**: 14003
+- **Releases**: 212 · **Merged PRs**: 12554 · **Open PRs**: 431 · **Closed issues**: 15226 · **Open issues**: 3454 · **Commits**: 14003
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 1 | 91 | 44 | 16 | 27 | 175 |
-| last60d | 2026-09-16 | 2 | 163 | 60 | 37 | 44 | 272 |
-| 90d | 2026-08-17 | 3 | 237 | 87 | 54 | 69 | 375 |
-| last180d | 2026-05-19 | 7 | 425 | 141 | 133 | 133 | 614 |
-| 360d | 2025-11-20 | 14 | 842 | 200 | 282 | 283 | 1058 |
-| last720d | 2024-11-25 | 28 | 1704 | 263 | 762 | 710 | 1713 |
+| 30d | 2026-10-17 | 2 | 91 | 45 | 16 | 28 | 175 |
+| last60d | 2026-09-17 | 3 | 162 | 61 | 37 | 45 | 272 |
+| 90d | 2026-08-18 | 4 | 233 | 86 | 53 | 67 | 375 |
+| last180d | 2026-05-20 | 8 | 416 | 141 | 133 | 132 | 614 |
+| 360d | 2025-11-21 | 15 | 840 | 201 | 283 | 282 | 1058 |
+| last720d | 2024-11-26 | 29 | 1700 | 264 | 762 | 709 | 1710 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [azure-cli-2.92.0-linux-arm64.tar.gz](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-linux-arm64.tar.gz) | 40.2 MiB | `native/linux/arm64` |
-| [azure-cli-2.92.0-linux-x86_64.tar.gz](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-linux-x86_64.tar.gz) | 40.8 MiB | `native/linux/x64` |
-| [azure-cli-2.92.0-macos-arm64.tar.gz](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-macos-arm64.tar.gz) | 44.5 MiB | `native/darwin/arm64` |
-| [azure-cli-2.92.0-macos-x86_64.tar.gz](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-macos-x86_64.tar.gz) | 44.8 MiB | `native/darwin/x64` |
-| [azure-cli-2.92.0-x64.msi](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-x64.msi) | 67.3 MiB | `other` |
-| [azure-cli-2.92.0-x64.zip](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0-x64.zip) | 87.9 MiB | `other` |
-| [azure-cli-2.92.0.msi](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.92.0/azure-cli-2.92.0.msi) | 64.9 MiB | `other` |
+| [azure-cli-2.93.0-linux-arm64.tar.gz](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.93.0/azure-cli-2.93.0-linux-arm64.tar.gz) | 40.6 MiB | `native/linux/arm64` |
+| [azure-cli-2.93.0-linux-x86_64.tar.gz](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.93.0/azure-cli-2.93.0-linux-x86_64.tar.gz) | 41.1 MiB | `native/linux/x64` |
+| [azure-cli-2.93.0-macos-arm64.tar.gz](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.93.0/azure-cli-2.93.0-macos-arm64.tar.gz) | 45.0 MiB | `native/darwin/arm64` |
+| [azure-cli-2.93.0-macos-x86_64.tar.gz](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.93.0/azure-cli-2.93.0-macos-x86_64.tar.gz) | 45.3 MiB | `native/darwin/x64` |
+| [azure-cli-2.93.0-x64.msi](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.93.0/azure-cli-2.93.0-x64.msi) | 67.7 MiB | `other` |
+| [azure-cli-2.93.0-x64.zip](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.93.0/azure-cli-2.93.0-x64.zip) | 88.6 MiB | `other` |
+| [azure-cli-2.93.0.msi](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.93.0/azure-cli-2.93.0.msi) | 65.3 MiB | `other` |
 
 ## Distribution status
 
-Reported by **60** distros on [repology.org](https://repology.org/project/azure-cli). **8** are ✅ on the latest upstream release, **43** are ⚠️ on an older version.
+Reported by **60** distros on [repology.org](https://repology.org/project/azure-cli). **5** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -88,7 +88,7 @@ Reported by **60** distros on [repology.org](https://repology.org/project/azure-
 | Arch | `2.90.0` | ⚠️ outdated |
 | Fedora rawhide | `2.88.0` | ⚠️ outdated |
 | Nix unstable | `2.91.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.92.0` | ✅ latest |
+| openSUSE Tumbleweed | `2.92.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -99,4 +99,4 @@ Install metadata for azure-cli lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:55:34Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:27:29Z._
