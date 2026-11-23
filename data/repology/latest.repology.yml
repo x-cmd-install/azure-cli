@@ -1,5 +1,5 @@
-- repo: pardus_21
-  subrepo: main
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: azure-cli
   binnames:
     - azure-cli
@@ -41,16 +41,16 @@
 - repo: chocolatey
   binname: azure-cli
   visiblename: Azure CLI
-  version: 2.92.0
+  version: 2.93.0
   origversion: null
-  status: outdated
+  status: newest
   summary: The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources.
 - repo: chromebrew
   srcname: py3_azure_cli
   visiblename: py3_azure_cli
-  version: 2.92.0
+  version: 2.93.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Next generation multi-platform command line experience for Azure.
   licenses:
     - MIT
@@ -126,24 +126,6 @@
     - bluca@debian.org
   categories:
     - misc
-- repo: kali_rolling
-  subrepo: main
-  srcname: azure-cli
-  binnames:
-    - azure-cli
-    - python3-azure-cli
-    - python3-azure-cli-core
-    - python3-azure-cli-telemetry
-    - python3-azure-cli-testsdk
-  visiblename: azure-cli
-  version: 2.91.0
-  origversion: 2.91.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - bluca@debian.org
-  categories:
-    - misc
 - repo: debian_unstable
   subrepo: sid/main
   srcname: azure-cli
@@ -180,24 +162,6 @@
     - bluca@debian.org
   categories:
     - python
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: azure-cli
-  binnames:
-    - azure-cli
-    - python3-azure-cli
-    - python3-azure-cli-core
-    - python3-azure-cli-telemetry
-    - python3-azure-cli-testsdk
-  visiblename: azure-cli
-  version: 2.18.0
-  origversion: 2.18.0-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - bluca@debian.org
-  categories:
-    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: azure-cli
@@ -335,23 +299,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: azure-cli
-  binnames:
-    - azure-cli
-    - python3-azure-cli-core
-    - python3-azure-cli-telemetry
-    - python3-azure-cli-testsdk
-  visiblename: azure-cli
-  version: 2.81.0
-  origversion: 2.81.0-2.fc43
-  status: outdated
-  summary: Microsoft Azure Command-Line Tools
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: azure-cli
   binnames:
@@ -363,6 +310,23 @@
   version: 2.74.0
   origversion: 2.74.0-6.fc43
   status: legacy
+  summary: Microsoft Azure Command-Line Tools
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: azure-cli
+  binnames:
+    - azure-cli
+    - python3-azure-cli-core
+    - python3-azure-cli-telemetry
+    - python3-azure-cli-testsdk
+  visiblename: azure-cli
+  version: 2.81.0
+  origversion: 2.81.0-2.fc43
+  status: outdated
   summary: Microsoft Azure Command-Line Tools
   licenses:
     - MIT
@@ -385,24 +349,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: parrot
-  subrepo: parrot/main
-  srcname: azure-cli
-  binnames:
-    - azure-cli
-    - python3-azure-cli
-    - python3-azure-cli-core
-    - python3-azure-cli-telemetry
-    - python3-azure-cli-testsdk
-  visiblename: azure-cli
-  version: 2.74.0
-  origversion: 2.74.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - bluca@debian.org
-  categories:
-    - misc
 - repo: fedora_45
   subrepo: release
   srcname: azure-cli
@@ -456,6 +402,24 @@
   origversion: null
   status: newest
   summary: Microsoft Azure CLI 2.0
+- repo: kali_rolling
+  subrepo: main
+  srcname: azure-cli
+  binnames:
+    - azure-cli
+    - python3-azure-cli
+    - python3-azure-cli-core
+    - python3-azure-cli-telemetry
+    - python3-azure-cli-testsdk
+  visiblename: azure-cli
+  version: 2.91.0
+  origversion: 2.91.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - bluca@debian.org
+  categories:
+    - misc
 - repo: macports
   srcname: sysutils/azure-cli
   binname: azure-cli
@@ -551,8 +515,8 @@
     - ulrik.strid@outlook.com
   licenses:
     - MIT
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: pardus_21
+  subrepo: main
   srcname: azure-cli
   binnames:
     - azure-cli
@@ -561,8 +525,8 @@
     - python3-azure-cli-telemetry
     - python3-azure-cli-testsdk
   visiblename: azure-cli
-  version: 2.74.0
-  origversion: 2.74.0-1
+  version: 2.18.0
+  origversion: 2.18.0-2
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -592,18 +556,6 @@
   licenses:
     - MIT
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: azure-cli
-  visiblename: azure-cli
-  version: 2.17.1
-  origversion: 2.17.1-150100.6.11.2
-  status: legacy
-  summary: Microsoft Azure CLI 2.0
-  licenses:
-    - MIT
-  categories:
-    - System/Management
-- repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: azure-cli
   visiblename: azure-cli
@@ -622,6 +574,18 @@
   version: 2.58.0
   origversion: 2.58.0-150400.14.6.1
   status: outdated
+  summary: Microsoft Azure CLI 2.0
+  licenses:
+    - MIT
+  categories:
+    - System/Management
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: azure-cli
+  visiblename: azure-cli
+  version: 2.17.1
+  origversion: 2.17.1-150100.6.11.2
+  status: legacy
   summary: Microsoft Azure CLI 2.0
   licenses:
     - MIT
@@ -724,6 +688,42 @@
   summary: Command-line tools for Microsoft Azure
   licenses:
     - MIT
+- repo: parrot
+  subrepo: parrot/main
+  srcname: azure-cli
+  binnames:
+    - azure-cli
+    - python3-azure-cli
+    - python3-azure-cli-core
+    - python3-azure-cli-telemetry
+    - python3-azure-cli-testsdk
+  visiblename: azure-cli
+  version: 2.74.0
+  origversion: 2.74.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - bluca@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: azure-cli
+  binnames:
+    - azure-cli
+    - python3-azure-cli
+    - python3-azure-cli-core
+    - python3-azure-cli-telemetry
+    - python3-azure-cli-testsdk
+  visiblename: azure-cli
+  version: 2.74.0
+  origversion: 2.74.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - bluca@debian.org
+  categories:
+    - misc
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: azure-cli
@@ -842,24 +842,6 @@
   maintainers:
     - gouranga.das.khulna@gmail.com
 - repo: ubuntu_20_04
-  subrepo: focal-updates/universe
-  srcname: azure-cli
-  binnames:
-    - azure-cli
-    - python3-azure-cli
-    - python3-azure-cli-core
-    - python3-azure-cli-telemetry
-    - python3-azure-cli-testsdk
-  visiblename: azure-cli
-  version: 2.0.81
-  origversion: 2.0.81+ds-4ubuntu0.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - bluca@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: azure-cli
   binnames:
@@ -874,6 +856,24 @@
   status: outdated
   maintainers:
     - python-modules-team@lists.alioth.debian.org
+    - bluca@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal-updates/universe
+  srcname: azure-cli
+  binnames:
+    - azure-cli
+    - python3-azure-cli
+    - python3-azure-cli-core
+    - python3-azure-cli-telemetry
+    - python3-azure-cli-testsdk
+  visiblename: azure-cli
+  version: 2.0.81
+  origversion: 2.0.81+ds-4ubuntu0.2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - bluca@debian.org
   categories:
     - universe/misc
