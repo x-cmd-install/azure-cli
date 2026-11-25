@@ -14,14 +14,14 @@ x install azure-cli
 
 ## 代码洞察
 
-合计: **14,172,309** 行代码（覆盖前 5 种语言、共 **9201** 个文件）。
+合计: **14,174,862** 行代码（覆盖前 5 种语言、共 **9206** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Yaml | 11,662,957 | 300 | 291 | 3262 |
-| Python | 2,478,395 | 72,436 | 383,767 | 5648 |
+| Python | 2,480,892 | 72,458 | 384,038 | 5653 |
 | Json | 16,556 | 0 | 46 | 278 |
-| ReStructuredText | 9,172 | 0 | 4,299 | 12 |
+| ReStructuredText | 9,228 | 0 | 4,329 | 12 |
 | Graphql | 973 | 79 | 90 | 1 |
 
 ## OpenSSF Scorecard 评分
@@ -47,22 +47,22 @@ x install azure-cli
 
 ## 流行度
 
-- **Star**: 4,668 · **Fork**: 3,534 · **开放 issue**: 18,694 · **贡献者**: 4,100
+- **Star**: 4,670 · **Fork**: 3,534 · **开放 issue**: 18,697 · **贡献者**: 4,103
 
 ## 累计统计
 
-- **发布数**: 212 · **已合并 PR**: 12585 · **开放 PR**: 435 · **已关闭 issue**: 15235 · **开放 issue**: 3459 · **提交数**: 14034
+- **发布数**: 212 · **已合并 PR**: 12587 · **开放 PR**: 434 · **已关闭 issue**: 15235 · **开放 issue**: 3462 · **提交数**: 14036
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 2 | 102 | 45 | 16 | 34 | 205 |
-| last60d | 2026-09-25 | 3 | 172 | 64 | 39 | 48 | 305 |
-| 90d | 2026-08-26 | 4 | 234 | 88 | 54 | 70 | 399 |
-| last180d | 2026-05-28 | 8 | 428 | 144 | 136 | 139 | 648 |
-| 360d | 2025-11-29 | 15 | 856 | 209 | 283 | 284 | 1105 |
-| last720d | 2024-12-04 | 29 | 1712 | 271 | 756 | 705 | 1714 |
+| 30d | 2026-10-26 | 2 | 101 | 43 | 15 | 37 | 208 |
+| last60d | 2026-09-26 | 3 | 174 | 63 | 39 | 51 | 308 |
+| 90d | 2026-08-27 | 4 | 232 | 85 | 52 | 71 | 402 |
+| last180d | 2026-05-29 | 8 | 429 | 143 | 134 | 142 | 651 |
+| 360d | 2025-11-30 | 15 | 858 | 207 | 283 | 287 | 1108 |
+| last720d | 2024-12-05 | 29 | 1710 | 269 | 755 | 706 | 1708 |
 
 ## Release 资产
 
@@ -76,20 +76,6 @@ x install azure-cli
 | [azure-cli-2.93.0-x64.zip](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.93.0/azure-cli-2.93.0-x64.zip) | 88.6 MiB | `other` |
 | [azure-cli-2.93.0.msi](https://github.com/Azure/azure-cli/releases/download/azure-cli-2.93.0/azure-cli-2.93.0.msi) | 65.3 MiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/azure-cli) 上共有 **61** 个发行版报告此项目。**8** 个 ✅ 已是最新上游版本，**44** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `2.91.0` | ⚠️ outdated |
-| Debian 14 | `2.91.0` | ⚠️ outdated |
-| Debian 13 | `2.74.0` | ⚠️ outdated |
-| Arch | `2.90.0` | ⚠️ outdated |
-| Fedora rawhide | `2.88.0` | ⚠️ outdated |
-| Nix unstable | `2.91.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.92.0` | ⚠️ outdated |
-
 ## 改进这些数据
 
 azure-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `azure-cli` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -99,4 +85,4 @@ azure-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:40:21Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:17:13Z._
